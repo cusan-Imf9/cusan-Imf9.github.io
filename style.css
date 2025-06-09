@@ -66,18 +66,16 @@ a {
     margin: 0;
 }
 
-/* --- THIS WHOLE STYLE BLOCK IS NEW --- */
 .subtitle {
     font-size: 1rem;
     font-weight: 400;
-    color: #a0a0a0; /* A slightly dimmer white */
+    color: #a0a0a0;
     letter-spacing: 1.5px;
     text-transform: lowercase;
-    margin-top: 10px; /* Space between title and subtitle */
+    margin-top: 10px;
 }
 
-
-/* Navigation Menu Styles (No changes) */
+/* Navigation Menu Styles */
 .main-menu {
     position: fixed;
     top: 0;
