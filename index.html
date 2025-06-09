@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMF9</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header class="site-header">
         <button id="menu-toggle" class="menu-toggle">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+            <span class="line"></span><span class="line"></span><span class="line"></span>
         </button>
     </header>
-
     <nav id="main-menu" class="main-menu">
         <ul>
             <li><a href="#works">works</a></li>
@@ -34,6 +28,33 @@
             <p class="subtitle">work in progress</p>
         </div>
     </main>
+
+    <section id="works" class="page-section">
+        <div class="section-container">
+            <h2 class="section-title">Works</h2>
+            <div class="works-grid">
+
+                <div class="work-item">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="work-info">
+                        <h3>Project Alpha</h3>
+                        <p>A web application designed for better productivity.</p>
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="work-info">
+                        <h3>Project Beta</h3>
+                        <p>A promotional video for a new brand launch.</p>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
 
     <script src="script.js" defer></script>
 </body>
